@@ -1,11 +1,11 @@
-1 apiVersion: apps/v1
-  2 kind: StatefulSet
-  3 metadata:
-  4   creationTimestamp: 2018-12-27T10:08:51Z
-  5   generation: 1
-  6   labels:
-  7     app: mariadb
-  8     chart: mariadb-5.2.5
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  creationTimestamp: 2018-12-27T10:08:51Z
+  generation: 1
+  labels:
+  app: mariadb
+  chart: mariadb-5.2.5
   9     component: master
  10     heritage: Tiller
  11     release: handsonaks-wp
